@@ -1,5 +1,17 @@
 # MyStencilNxDemo
+steps
+```
+1) npx create-nx-workspace@latest
+? Workspace name (e.g., org name)     my-stencil-nx-demo
+? What to create in the new workspace angular           [a workspace with a single Angular application]
+? Application name                    angular
+? Default stylesheet format           SASS(.scss)  [ http://sass-lang.com   ]
+```
 
+
+### Original README:
+
+```
 This project was generated using [Nx](https://nx.dev).
 
 <p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
@@ -96,3 +108,4 @@ Nx Cloud pairs with Nx in order to enable you to build and test code more rapidl
 Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
 
 Visit [Nx Cloud](https://nx.app/) to learn more.
+```
