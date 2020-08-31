@@ -22,6 +22,9 @@ export class AppHome {
           <a href="https://stenciljs.com">stenciljs.com</a> to get started.
         </p>
 
+        {'<my-component first="Stencil" last="\'Don\'t call me a framework\' JS"></my-component> here ->'}
+        <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+
         <ion-button href="/profile/ionic" expand="block">
           Profile page
         </ion-button>

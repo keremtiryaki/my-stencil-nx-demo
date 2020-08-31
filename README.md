@@ -27,6 +27,21 @@ nx g @nxext/stencil:lib
 ? Which stylesheet format would you like to use? SASS(.scss)
 ```
 
+step 5) 
+```
+nx serve stencil-pwa
+```
+
+step 6) 
+```
+open the file below, 
+apps/stencil-pwa/src/components/app-home/app-home.tsx
+
+find the <ion-content> tag, then add these 2 lines into <ion-content>.
+{'<my-component first="Stencil" last="\'Don\'t call me a framework\' JS"></my-component> here ->'}
+<my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+```
+
 
 ### Original README:
 
