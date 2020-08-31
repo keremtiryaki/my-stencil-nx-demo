@@ -38,6 +38,9 @@
     },
     "stencil-pwa": {
       "tags": []
+    },
+    "stencil-lib": {
+      "tags": []
     }
   }
 }

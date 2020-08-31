@@ -20,6 +20,13 @@ nx g @nxext/stencil:pwa
 ? Which stylesheet format would you like to use? SASS(.scss)     
 ```
 
+step 4) 
+```
+nx g @nxext/stencil:lib
+? What name would you like to use? stencil-lib
+? Which stylesheet format would you like to use? SASS(.scss)
+```
+
 
 ### Original README:
 
