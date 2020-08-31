@@ -1,11 +1,23 @@
 # MyStencilNxDemo
-steps
+step 1) 
 ```
-1) npx create-nx-workspace@latest
+npx create-nx-workspace@latest
 ? Workspace name (e.g., org name)     my-stencil-nx-demo
 ? What to create in the new workspace angular           [a workspace with a single Angular application]
 ? Application name                    angular
-? Default stylesheet format           SASS(.scss)  [ http://sass-lang.com   ]
+? Default stylesheet format           SASS(.scss) 
+```
+
+step 2) 
+```
+npm install @nxext/stencil --save-dev
+```
+
+step 3) 
+```
+nx g @nxext/stencil:pwa
+? What name would you like to use? stencil-pwa
+? Which stylesheet format would you like to use? SASS(.scss)     
 ```
 
 
